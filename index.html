@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Just Click!</title>
+	<style type="text/css">
+		@font-face{
+			font-family: "MsrtBold";
+			src: url("./res/Montserrat-SemiBold.ttf");
+		}
+		@font-face{
+			font-family: "MsrtLight";
+			src: url("./res/Montserrat-Light.ttf");
+		}
+		html{
+			background-color: #c0c0c0;
+		}
+		h1{
+			font-family: "MsrtBold";
+			color: #ffffff;
+			font-size: 12vw;
+			text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+			margin-bottom: 0px;
+		}
+		p{
+			margin-top: 0px;
+			font-family: "MsrtLight";
+			color: #ffffff;
+			font-size: 5vw;
+		}
+		h2{
+			font-family: "MsrtBold";
+			color: #ffffff;
+			font-size: 5.7vw;
+		}
+		input{
+			font-family: "MsrtBold";
+			color: #ffffff;
+			font-size: 5.7vw;
+		}
+	</style>
+	<script type="text/javascript">
+		function Download(){
+			window.location.replace('https://yandersetups.7m.pl/r/8.apk');
+		}
+	</script>
+</head>
+<body>
+	<h1 align="center">Just Click</h1>
+	<p align="center">Просто кликай..</p>
+	<br>
+	<h2 align="center">Актуальная версия: alpha 0.17</h2>
+	<div align="center">
+		<input type="image" src="./res/wideblank.png" value="Скачать" onclick="Download()" />
+		<!--<button style="background: url('./res/blank.png');"></button>-->
+	</div>
+</body>
+</html>
